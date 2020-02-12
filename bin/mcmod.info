@@ -1,0 +1,16 @@
+[
+{
+  "modid": "moreblocksv1",
+  "name": "More Blocks",
+  "description": "Bruh... this just add more blocks",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ExampleDude"],
+  "credits": "Exo",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

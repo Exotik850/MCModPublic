@@ -27,5 +27,6 @@ public class main
     {
         // some example code
         logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        logger.info("succesful launch!");
     }
 }

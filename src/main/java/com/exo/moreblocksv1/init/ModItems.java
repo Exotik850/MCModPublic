@@ -12,4 +12,5 @@ public class ModItems
     public static final List<Item> ITEMS = new ArrayList<Item>();
 
     public static final Item DINGALING = new ItemBase("dingaling");
+    public static final Item HAND = new ItemBase("hand");
 }

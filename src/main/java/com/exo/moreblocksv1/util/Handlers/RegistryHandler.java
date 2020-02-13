@@ -1,4 +1,4 @@
-package com.exo.moreblocksv1.util.Handlers;
+package com.exo.moreblocksv1.util.handlers;
 
 import com.exo.moreblocksv1.init.IHasModel;
 import com.exo.moreblocksv1.init.ModItems;
@@ -13,13 +13,13 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class RegistryHandler
 {
     @SubscribeEvent
-    public static void onItemRgister(RegistryEvent.Register<Item> event)
+    public static void onItemRegister(RegistryEvent.Register<Item> event)
     {
         event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
     }
 
     @SubscribeEvent
-    public static void onModelRgister(ModelRegistryEvent event)
+    public static void onRegister(ModelRegistryEvent event)
     {
         for (Item item : ModItems.ITEMS)
         {

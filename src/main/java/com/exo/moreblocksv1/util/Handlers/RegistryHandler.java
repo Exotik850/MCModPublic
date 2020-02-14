@@ -1,7 +1,7 @@
 package com.exo.moreblocksv1.util.handlers;
 
-import com.exo.moreblocksv1.init.IHasModel;
 import com.exo.moreblocksv1.init.ModItems;
+import com.exo.moreblocksv1.util.IHasModel;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;

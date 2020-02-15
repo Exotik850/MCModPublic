@@ -13,7 +13,7 @@ import net.minecraft.item.ItemBlock;
 
 public class BlockBase extends Block implements IHasModel
 {
-    public BlockBase(String name, Material material)
+    public BlockBase(String name, Material material, float hardness, float resistance)
     {
         super(material);
         setRegistryName(name);

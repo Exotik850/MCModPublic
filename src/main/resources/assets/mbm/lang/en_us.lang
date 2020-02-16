@@ -1,6 +1,8 @@
 //Items
 item.dingaling.name=Dingaling
+item.dingaling_cooked.name=Cooked Dingaling
 
 //Blocks
 tile.dinga_block.name=Dinga Block
+tile.cooked_dinga_block.name=Cooked Dinga Block
 tile.reinforced_glass.name=Reinforced Glass

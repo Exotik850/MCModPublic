@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
+import com.exo.moreblocksv1.init.ModRecipes;
 import com.exo.moreblocksv1.proxy.CommonProxy;
 import com.exo.moreblocksv1.util.reference;
 
@@ -29,7 +30,7 @@ public class main
    @EventHandler
    public static void Init(FMLInitializationEvent event)
    {
-       
+      ModRecipes.init();
    }
 
    @EventHandler

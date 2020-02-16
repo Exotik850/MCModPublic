@@ -21,4 +21,9 @@ public class GlassTypeBlocks extends BlockBase {
     {
         return BlockRenderLayer.CUTOUT;
     }
+    @Override
+    public boolean isOpaqueCube(IBlockState state)
+    {
+        return false;
+    }
 }

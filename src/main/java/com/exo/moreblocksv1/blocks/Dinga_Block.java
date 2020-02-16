@@ -11,7 +11,7 @@ public class Dinga_Block extends BlockBase
         super(name, material, hardness, resistance);
 
         setSoundType(SoundType.SLIME);
-        setHardness(1.0f);
+        setHardness(0.1f);
         setResistance(18000000.0f);
         setHarvestLevel("shovel", 3);
     }

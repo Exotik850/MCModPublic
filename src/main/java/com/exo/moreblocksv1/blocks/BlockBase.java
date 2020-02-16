@@ -4,6 +4,7 @@ import com.exo.moreblocksv1.main;
 import com.exo.moreblocksv1.init.ModBlocks;
 import com.exo.moreblocksv1.init.ModItems;
 import com.exo.moreblocksv1.util.IHasModel;
+import com.exo.moreblocksv1.util.reference;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -16,7 +17,7 @@ public class BlockBase extends Block implements IHasModel
     public BlockBase(String name, Material material, float hardness, float resistance)
     {
         super(material);
-        setRegistryName(name);
+        setRegistryName(reference.MOD_ID + ":" + name);
         setUnlocalizedName(name);
         setCreativeTab(CreativeTabs.REDSTONE);
 

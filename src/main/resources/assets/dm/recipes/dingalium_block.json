@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "RRR",
+        "RRR",
+        "RRR"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "dm:dingalium_ingot"
+        }
+    },
+   
+    "result":
+    {
+        "item": "dm:dingalium_block",
+        "count": 1
+    }
+}

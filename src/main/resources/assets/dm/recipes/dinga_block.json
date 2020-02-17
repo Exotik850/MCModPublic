@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "RRR",
+        "RRR",
+        "RRR"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "dm:dingaling"
+        }
+    },
+   
+    "result":
+    {
+        "item": "dm:dinga_block",
+        "count": 1
+    }
+}

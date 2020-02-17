@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "dm:dinga_block"
+    }
+
+    ],
+ 
+    "result":
+    {
+        "item": "dm:dingaling",
+        "count": 9
+    }
+}

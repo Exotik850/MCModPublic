@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " R ",
+        " S ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stick"
+        },
+
+        "R":
+        {
+            "item": "dm:dingalium_ingot"
+        }
+    },
+   
+    "result":
+    {
+        "item": "dm:dingalium_shovel",
+        "count": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " R ",
+        " R ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stick"
+        },
+
+        "R":
+        {
+            "item": "dm:dingalium_ingot"
+        }
+    },
+   
+    "result":
+    {
+        "item": "dm:dingalium_sword",
+        "count": 1
+    }
+}

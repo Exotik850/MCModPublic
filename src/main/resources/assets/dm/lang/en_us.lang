@@ -9,3 +9,6 @@ tile.cooked_dinga_block.name=Cooked Dinga Block
 tile.reinforced_glass.name=Reinforced Glass
 tile.dingalium_block.name=Dingalium Block
 tile.dingalium_ore.name=Dingalium Ore
+
+//tabs
+itemGroup.dingamod=Dinga Mod

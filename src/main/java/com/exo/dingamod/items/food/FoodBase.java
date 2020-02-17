@@ -4,7 +4,6 @@ import com.exo.dingamod.main;
 import com.exo.dingamod.init.ModItems;
 import com.exo.dingamod.util.IHasModel;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemFood;
 
 public class FoodBase extends ItemFood implements IHasModel
@@ -15,7 +14,7 @@ public class FoodBase extends ItemFood implements IHasModel
         super(amount, saturation, isWolfFood);
         setRegistryName(name);
         setUnlocalizedName(name);
-        setCreativeTab(CreativeTabs.REDSTONE);
+        setCreativeTab(main.dingamod);
 
         ModItems.ITEMS.add(this);
     }

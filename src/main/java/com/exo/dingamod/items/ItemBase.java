@@ -3,8 +3,6 @@ package com.exo.dingamod.items;
 import com.exo.dingamod.main;
 import com.exo.dingamod.util.IHasModel;
 import com.exo.dingamod.init.ModItems;
-
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item implements IHasModel
@@ -13,7 +11,7 @@ public class ItemBase extends Item implements IHasModel
     {
         setRegistryName(name);
         setUnlocalizedName(name);
-        setCreativeTab(CreativeTabs.REDSTONE);
+        setCreativeTab(main.dingamod);
 
         ModItems.ITEMS.add(this);
     }

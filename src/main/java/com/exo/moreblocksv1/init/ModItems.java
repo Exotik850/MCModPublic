@@ -13,5 +13,7 @@ public class ModItems
 
     public static final Item DINGALING = new ItemBase("dingaling");
     public static final Item DINGALING_COOKED = new ItemBase("dingaling_cooked");
+    public static final Item DINGALIUM_INGOT = new ItemBase("dingalium_ingot");
+
 
 }

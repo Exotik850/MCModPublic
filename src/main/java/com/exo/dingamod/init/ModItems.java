@@ -30,5 +30,5 @@ public class ModItems
     //Tools
     public static final ItemSword DINGALIUM_SWORD = new ToolSword("dingalium_sword", MATERIAL_DINGALIUM);
     public static final ItemSpade DINGALIUM_SPADE = new ToolShovel("dingalium_shovel", MATERIAL_DINGALIUM);
-
+    public static final ItemPickaxe DINGALIUM_PICKAXE = new ToolPickaxe("dingalium_pickaxe", MATERIAL_DINGALIUM);
 }

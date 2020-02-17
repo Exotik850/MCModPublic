@@ -7,7 +7,7 @@ item.dingalium_ingot.name=Dingalium Ingot
 item.dingalium_sword.name=Dingalium Sword
 item.dingalium_shovel.name=Dingalium Shovel
 item.dingalium_pickaxe.name=Dingalium Pickaxe
-
+item.dingalium_hoe.name=Dingalium Hoe
 
 //Blocks
 tile.dinga_block.name=Dinga Block

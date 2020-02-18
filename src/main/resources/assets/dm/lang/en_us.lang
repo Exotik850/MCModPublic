@@ -12,7 +12,6 @@ item.dingalium_hoe.name=Dingalium Hoe
 //Blocks
 tile.dinga_block.name=Dinga Block
 tile.cooked_dinga_block.name=Cooked Dinga Block
-tile.reinforced_glass.name=Reinforced Glass
 tile.dingalium_block.name=Dingalium Block
 tile.dingalium_ore.name=Dingalium Ore
 
